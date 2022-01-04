@@ -1,0 +1,23 @@
+name: X
+on: [push]
+jobs:
+ build-and-deploy:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Checkout 🛎️
+     uses: actions/checkout@v2.3.1
+     with:
+      persist-credentials: false
+
+   - name: Init
+     run: |
+      sudo apt-get update -y 
+
+   - name: Install
+     run: |
+      npm i
+      npm run build
+
+   - name: Upload
+     run: |
+      npx ipfs-deploy ./dist
