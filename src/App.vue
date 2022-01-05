@@ -9,15 +9,14 @@
   <div class="container px-4 mx-auto text-center">
 
     <ul class="my-6 flex flex-wrap space-x-8 items-center justify-center">
-      <li class="mb-2 md:mb-0"><a class="text-sm text-gray-900 hover:text-gray-700" href="#">About</a></li>
-      <li class="mb-2 md:mb-0"><a class="text-sm text-gray-900 hover:text-gray-700" href="#">Company</a></li>
-      <li class="mb-2 md:mb-0"><a class="text-sm text-gray-900 hover:text-gray-700" href="#">Services</a></li>
-      <li class="mb-2 md:mb-0"><a class="text-sm text-gray-900 hover:text-gray-700" href="#">Testimonials</a></li>
+      <li class="mb-2 md:mb-0"><a class="text-sm text-gray-900 hover:text-gray-700" href="https://medium.com/@moneymafia">Medium</a></li>
+      <li class="mb-2 md:mb-0"><a class="text-sm text-gray-900 hover:text-gray-700" href="https://github.com/moneymafia">Github</a></li>
+      <li class="mb-2 md:mb-0"><a class="text-sm text-gray-900 hover:text-gray-700" href="https://discord.gg/hqrbMff4ph">Discord</a></li>
     </ul>
   </div>
   <div class="mt-12 mb-8 border-b border-gray-50"></div>
   <div class="container px-4 mx-auto">
-    <p class="text-center text-sm text-gray-400">All rights reserved &copy; Wireframes Corporation 2020</p>
+    <p class="text-center text-sm text-gray-400"> Built with ❤️ In Dubai, UAE. </p>
   </div>
 </footer>
   
