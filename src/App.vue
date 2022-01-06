@@ -11,7 +11,6 @@
 			<div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
 				<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
 					<router-link to="/service" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900 uppercase">Services</router-link>
-					<router-link to="/faq" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900 uppercase">FAQ</router-link>
 					<router-link to="/team" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900 uppercase">TEAM</router-link>
 					<router-link to="/contact" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900 uppercase">CONTACT</router-link>
 				</nav>
