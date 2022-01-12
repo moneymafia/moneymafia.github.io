@@ -1,4 +1,18 @@
 <template>
+<div>
+		<div class="py-16 mx-auto">
+			<div class="flex md:flex-row flex-col items-center">
+				<div class="md:w-1/2 p-5">
+					<p class="text-3xl font-bold uppercase text-gray-400">MEET OUR <span class="text-white bg-red-400">TEAM</span>.</p>
+				</div>
+
+                               <div class="md:w-1/2 p-5">
+					<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/team.json" background="transparent"></lottie-player>
+				</div>
+
+
+			</div>
+		</div>
 	<div class="py-16 mx-auto">
 		<div class="grid w-full grid-cols-1 gap-10 sm:grid-cols-4">
 			<div v-for="(team, index) of teams" :key="index">
@@ -16,7 +30,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div></div>
 </template>
 
 <script>
