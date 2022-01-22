@@ -1,4 +1,14 @@
-<template>
+<template>	<div><div class="py-16 mx-auto">
+			<div class="flex md:flex-row flex-col items-center">
+				<div class="md:w-1/2 p-5">
+					<p class="text-5xl font-bold uppercase text-gray-400">frequently asked <span class="text-white bg-red-400">questions</span></p>
+				</div>
+
+				<div class="md:w-1/2 p-5">
+					<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/faq.json" background="transparent"></lottie-player>
+				</div>
+			</div>
+		</div>
 	<div class="py-16 mx-auto">
 		<div class="flex flex-col justify-center">
 			<div class="grid grid-cols-1 gap-0 md:grid-cols-3 md:gap-16">
@@ -10,7 +20,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>	</div>
 </template>
 
 <script>
