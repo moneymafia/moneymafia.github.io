@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="py-16 mx-auto">
+		<div class="py-20 mx-auto">
 			<div class="flex md:flex-row flex-col items-center">
 				<div class="md:w-1/2 p-5">
 					<p class="text-3xl font-bold uppercase text-gray-400">Money Mafia is a decenterlised organisation that <span class="text-white bg-red-400">develops</span>, <span class="text-white bg-red-400">manages</span> & <span class="text-white bg-red-400">funds</span> blockchain startups.</p>

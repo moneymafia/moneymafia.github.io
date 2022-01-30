@@ -1,5 +1,5 @@
 <template>
-	<div class="py-10 mx-auto">
+	<div class="py-20 mx-auto">
 		<div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
 			<div class="col-span-1 m-auto">
 				<h2 class="mb-4 text-3xl font-bold sm:text-4xl font-heading uppercase">PROJECT <span class="text-white bg-red-400">Development</span></h2>
