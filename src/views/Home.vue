@@ -13,12 +13,12 @@
 									<path d="M5 12h14M12 5l7 7-7 7"></path>
 								</svg>
 							</a>
-							<a href="https://discord.gg/hqrbMff4ph" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-red-400 rounded-md md:mb-0 hover:bg-red-700 md:w-auto">
+                                                        <router-link to="/contact" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-red-400 rounded-md md:mb-0 hover:bg-red-700 md:w-auto">
 								Discord
 								<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
 									<path d="M5 12h14M12 5l7 7-7 7"></path>
 								</svg>
-							</a>
+							</router-link>
 						</div>
 					</div>
 				</div>
