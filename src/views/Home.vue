@@ -17,6 +17,8 @@
 		<feature />
 
 		<portfolio />
+
+		<medium />
 	</div>
 </template>
 
@@ -24,12 +26,14 @@
 	import feature from '@/components/feature.vue';
 	import portfolio from '@/components/portfolio.vue';
 	import links from '@/components/links.vue';
+	import medium from '@/components/medium.vue';
 
 	export default {
 		components: {
 			feature,
 			portfolio,
 			links,
+			medium,
 		},
 	};
 </script>
