@@ -43,10 +43,6 @@
 						title: 'Income Source (Investment)',
 						text: 'Money Mafia generates money from various modes like seed investments, private investments, project development partnerships.',
 					},
-					{
-						title: 'Management Fees',
-						text: 'Team charges 10% management fees on all returns.',
-					},
 				],
 			};
 		},
