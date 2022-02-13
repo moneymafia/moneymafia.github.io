@@ -14,32 +14,31 @@ const routes = [
 	{
 		path: '/team',
 		name: 'Team',
-		component: () => import(/* webpackChunkName: "about" */ '../views/Team.vue'),
+		component: () => import('../views/Team.vue'),
 	},
 	{
 		path: '/faq',
 		name: 'Faq',
-		component: () => import(/* webpackChunkName: "about" */ '../views/Faq.vue'),
+		component: () => import('../views/Faq.vue'),
 	},
 	{
 		path: '/contact',
 		name: 'Contact',
-		component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue'),
+		component: () => import('../views/Contact.vue'),
 	},
 	{
 		path: '/approach',
 		name: 'Approach',
-		component: () => import(/* webpackChunkName: "about" */ '../views/Approach.vue'),
+		component: () => import('../views/Approach.vue'),
 	},
 	{
 		path: '/portfolio',
 		name: 'Portfolio',
-		component: () => import(/* webpackChunkName: "about" */ '../views/Portfolio.vue'),
+		component: () => import('../views/Portfolio.vue'),
 	},
 ];
 
 const router = new VueRouter({
-	mode: 'history',
 	base: process.env.BASE_URL,
 	routes,
 });
