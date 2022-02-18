@@ -27,9 +27,9 @@ const routes = [
 		component: () => import('../views/Contact.vue'),
 	},
 	{
-		path: '/approach',
-		name: 'Approach',
-		component: () => import('../views/Approach.vue'),
+		path: '/service',
+		name: 'Service',
+		component: () => import('../views/Service.vue'),
 	},
 	{
 		path: '/portfolio',
@@ -39,8 +39,6 @@ const routes = [
 ];
 
 const router = new VueRouter({
-	mode: 'history',
-	base: process.env.BASE_URL,
 	routes,
 });
 
