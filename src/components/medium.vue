@@ -1,6 +1,6 @@
 <template>
 	<div class="py-20 mx-auto">
-		<section class="grid grid-cols-1 md:grid-cols-3 gap-10">
+		<section class="grid grid-cols-1 md:grid-cols-3 gap-2">
 			<a v-bind:href="posts[0].link" target="_blank">
 				<article class="mx-auto pb-2 transform duration-500 hover:-translate-y-1 cursor-pointer group">
 					<div class="min-h-64 overflow-hidden">
