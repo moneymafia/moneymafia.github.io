@@ -7,7 +7,7 @@
 
 			<section class="grid grid-cols-1 md:grid-cols-3 gap-5">
 				<a v-bind:href="posts[0].link" target="_blank">
-					<article class="mx-auto w-full shadow-2xl rounded-2xl transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
+					<article class="mx-auto w-full shadow-2xl  transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
 						<div class="min-h-80 overflow-hidden">
 							<img class="h-80" v-bind:src="posts[0].thumbnail" />
 						</div>
@@ -18,7 +18,7 @@
 				>
 
 				<a v-bind:href="posts[1].link" target="_blank">
-					<article class="mx-auto w-full shadow-2xl rounded-2xl transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
+					<article class="mx-auto w-full shadow-2xl  transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
 						<div class="min-h-80 overflow-hidden">
 							<img class="h-80" v-bind:src="posts[1].thumbnail" />
 						</div>
@@ -29,7 +29,7 @@
 				>
 
 				<a v-bind:href="posts[2].link" target="_blank">
-					<article class="mx-auto w-full shadow-2xl rounded-2xl transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
+					<article class="mx-auto w-full shadow-2xl  transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
 						<div class="min-h-80 overflow-hidden">
 							<img class="h-80" v-bind:src="posts[2].thumbnail" />
 						</div>
@@ -39,7 +39,7 @@
 					</article></a
 				>
 				<a v-bind:href="posts[3].link" target="_blank">
-					<article class="mx-auto w-full shadow-2xl rounded-2xl transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
+					<article class="mx-auto w-full shadow-2xl  transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
 						<div class="min-h-80 overflow-hidden">
 							<img class="h-80" v-bind:src="posts[3].thumbnail" />
 						</div>
@@ -49,7 +49,7 @@
 					</article></a
 				>
 				<a v-bind:href="posts[4].link" target="_blank">
-					<article class="mx-auto w-full shadow-2xl rounded-2xl transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
+					<article class="mx-auto w-full shadow-2xl  transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
 						<div class="min-h-80 overflow-hidden">
 							<img class="h-80" v-bind:src="posts[4].thumbnail" />
 						</div>
@@ -59,7 +59,7 @@
 					</article></a
 				>
 				<a v-bind:href="posts[5].link" target="_blank">
-					<article class="mx-auto w-full shadow-2xl rounded-2xl transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
+					<article class="mx-auto w-full shadow-2xl  transform duration-500 hover:-translate-y-2 cursor-pointer bg-white">
 						<div class="min-h-80 overflow-hidden">
 							<img class="h-80" v-bind:src="posts[5].thumbnail" />
 						</div>
