@@ -1,9 +1,9 @@
 <template>
-	<div>
-		<div class="py-16 mx-auto">
+	<div class="container mx-auto max-w-7xl px-5">
+		<div class="py-10">
 			<div class="flex md:flex-row flex-col items-center">
 				<div class="md:w-1/2 p-5">
-					<p class="text-5xl font-bold uppercase text-gray-400">MEET OUR <span class="text-white bg-red-400">TEAM</span></p>
+					<p class="text-5xl font-bold uppercase text-gray-400">MEET OUR <span class="text-white bg-gray-400">TEAM</span></p>
 				</div>
 
 				<div class="md:w-1/2 p-5">
@@ -11,7 +11,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="py-16 mx-auto">
+		<div class="py-10">
 			<div class="grid w-full grid-cols-1 gap-10 sm:grid-cols-4">
 				<div v-for="(team, index) of teams" :key="index">
 					<div class="flex flex-col items-center justify-center col-span-1">

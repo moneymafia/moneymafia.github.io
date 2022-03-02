@@ -1,9 +1,9 @@
 <template>
-	<div>
-		<div class="py-16 mx-auto">
+	<div class="container mx-auto max-w-7xl px-5">
+		<div class="py-10">
 			<div class="flex md:flex-row flex-col items-center">
 				<div class="md:w-1/2 p-5">
-					<p class="text-4xl font-bold uppercase text-gray-400">We invest <span class="text-white bg-red-400">time</span>, <span class="text-white bg-red-400">money</span>, <span class="text-white bg-red-400">vision</span> in WEB3 startups.</p>
+					<p class="text-4xl font-bold uppercase text-gray-400">We invest <span class="text-white bg-gray-400">time</span>, <span class="text-white bg-gray-400">money</span>, <span class="text-white bg-gray-400">vision</span> in WEB3 startups.</p>
 				</div>
 
 				<div class="md:w-1/2 p-5">
@@ -11,7 +11,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="py-16 mx-auto">
+		<div class="py-10">
 			<div class="grid grid-cols-2 md:grid-cols-5">
 				<div class="flex items-center justify-center col-span-1 lg:col-span-1 transform duration-500 hover:-translate-y-1">
 					<img src="img/logo/marlin.png" class="h-32 w-32" />

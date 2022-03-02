@@ -1,6 +1,6 @@
 <template>
-	<div id="app" class="container mx-auto px-10 max-w-7xl">
-		<div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row uppercase">
+	<div id="app">
+		<div class="container mx-auto flex flex-col flex-wrap items-center justify-between py-10 md:flex-row uppercase">
 			<div class="relative flex flex-col md:flex-row">
 				<router-link to="/" class="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
 					<span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">MONEY MAFIA</span>

@@ -1,8 +1,8 @@
 <template>
-	<div class="py-16 mx-auto">
+	<div class="py-10 container mx-auto max-w-7xl px-5">
 		<div class="flex md:flex-row flex-col items-center">
 			<div class="md:w-1/2 p-5">
-				<p class="text-5xl font-bold uppercase text-gray-400">Join Our <span class="text-white bg-red-400">Discord</span></p>
+				<p class="text-5xl font-bold uppercase text-gray-400">Join Our <span class="text-white bg-gray-400">Discord</span></p>
 			</div>
 
 			<div class="md:w-1/2 p-5">
