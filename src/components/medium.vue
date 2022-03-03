@@ -12,7 +12,7 @@
 							<img class="h-80" v-bind:src="posts[0].thumbnail" />
 						</div>
 						<div class="flex justify-between">
-							<p class="m-4 text-2xl text-gray-700">{{ posts[0].title }}</p>
+							<p class="m-4 text-xl text-gray-700">{{ posts[0].title }}</p>
 						</div>
 					</article></a
 				>
@@ -23,7 +23,7 @@
 							<img class="h-80" v-bind:src="posts[1].thumbnail" />
 						</div>
 						<div class="flex justify-between">
-							<p class="m-4 text-2xl text-gray-700">{{ posts[1].title }}</p>
+							<p class="m-4 text-xl text-gray-700">{{ posts[1].title }}</p>
 						</div>
 					</article></a
 				>
@@ -34,7 +34,7 @@
 							<img class="h-80" v-bind:src="posts[2].thumbnail" />
 						</div>
 						<div class="flex justify-between">
-							<p class="m-4 text-2xl text-gray-700">{{ posts[2].title }}</p>
+							<p class="m-4 text-xl text-gray-700">{{ posts[2].title }}</p>
 						</div>
 					</article></a
 				>
@@ -44,7 +44,7 @@
 							<img class="h-80" v-bind:src="posts[3].thumbnail" />
 						</div>
 						<div class="flex justify-between">
-							<p class="m-4 text-2xl text-gray-700">{{ posts[3].title }}</p>
+							<p class="m-4 text-xl text-gray-700">{{ posts[3].title }}</p>
 						</div>
 					</article></a
 				>
@@ -54,7 +54,7 @@
 							<img class="h-80" v-bind:src="posts[4].thumbnail" />
 						</div>
 						<div class="flex justify-between">
-							<p class="m-4 text-2xl text-gray-700">{{ posts[4].title }}</p>
+							<p class="m-4 text-xl text-gray-700">{{ posts[4].title }}</p>
 						</div>
 					</article></a
 				>
@@ -64,7 +64,7 @@
 							<img class="h-80" v-bind:src="posts[5].thumbnail" />
 						</div>
 						<div class="flex justify-between">
-							<p class="m-4 text-2xl text-gray-700">{{ posts[5].title }}</p>
+							<p class="m-4 text-xl text-gray-700">{{ posts[5].title }}</p>
 						</div>
 					</article></a
 				>
