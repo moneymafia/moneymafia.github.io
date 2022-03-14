@@ -13,7 +13,6 @@
 					<router-link to="/service" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">SERVICE</router-link>
 					<router-link to="/team" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">TEAM</router-link>
 					<router-link to="/faq" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">FAQ</router-link>
-					<router-link to="/contact" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">CONTACT</router-link>
 				</nav>
 			</div>
 		</div>

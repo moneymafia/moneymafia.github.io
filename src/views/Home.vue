@@ -17,17 +17,22 @@
 		</div>
 
 		<medium />
+
+		<contact />
+		
 	</div>
 </template>
 
 <script>
 	import links from '@/components/links.vue';
 	import medium from '@/components/medium.vue';
+	import contact from '@/components/contact.vue';
 
 	export default {
 		components: {
 			links,
 			medium,
+			contact,
 		},
 	};
 </script>
