@@ -8,7 +8,7 @@
 			<div class="md:w-1/2 p-5">
 				<p class="text-5xl font-bold uppercase text-gray-400 py-10"><span class="text-white bg-gray-400">Contact</span> US</p>
 
-				<p class="text-2xl font-bold uppercase text-gray-400"><span class="text-white bg-gray-400">MONEYMAFIA.ETH</span>@pm.me</p>
+				<p class="text-2xl font-bold uppercase text-gray-400">MONEYMAFIA.ETH@pm.me</p>
 			</div>
 		</div>
 	</div>
