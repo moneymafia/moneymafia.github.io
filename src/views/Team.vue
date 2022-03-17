@@ -20,10 +20,8 @@
 							<img class="relative z-10 w-full rounded-full" v-bind:src="'img/team/' + team.pic + '.png'" />
 						</div>
 						<div class="mt-3 py-5 text-center">
-							<div>
 								<h3 class="font-medium text-xl">{{ team.name }}</h3>
 								<p>( {{ team.title }} )</p>
-							</div>
 						</div>
 					</div>
 				</div>
