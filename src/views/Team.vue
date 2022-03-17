@@ -12,17 +12,17 @@
 			</div>
 		</div>
 		<div class="py-10">
-			<div class="grid w-full grid-cols-1 gap-10 sm:grid-cols-4">
+			<div class="grid w-full grid-cols-1 gap-10 md:grid-cols-3">
 				<div v-for="(team, index) of teams" :key="index">
-					<div class="flex flex-col items-center justify-center col-span-1">
+					<div class="flex flex-col  col-span-1 items-center justify-center shadow-xl py-10 px-10 transform duration-500 hover:-translate-y-5 cursor-pointer rounded-md" >
 						<div class="relative p-5">
-							<div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full bg-blue-50"></div>
+							<div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full" :class="theme[index]"></div>
 							<img class="relative z-10 w-full rounded-full" v-bind:src="'img/team/' + team.pic + '.png'" />
 						</div>
-						<div class="mt-3 space-y-2 text-center">
-							<div class="space-y-1 text-lg font-medium leading-6">
-								<h3>{{ team.name }}</h3>
-								<p class="text-blue-600">{{ team.title }}</p>
+						<div class="mt-3 py-5 text-center">
+							<div>
+								<h3 class="font-medium text-xl">{{ team.name }}</h3>
+								<p>( {{ team.title }} )</p>
 							</div>
 						</div>
 					</div>
@@ -36,6 +36,7 @@
 	export default {
 		data() {
 			return {
+				theme: ['bg-red-100', 'bg-blue-100', 'bg-green-100', 'bg-yellow-100', 'bg-purple-100', 'bg-blue-100'],
 				teams: [
 					{
 						name: 'Jerry Ward',
