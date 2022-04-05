@@ -1,38 +1,31 @@
 <template>
 	<div>
-		<div class="container mx-auto max-w-7xl px-5">
-			<div class="py-10">
-				<div class="flex md:flex-row flex-col items-center">
-					<div class="md:w-1/2 p-5">
-						<p class="text-3xl font-bold uppercase text-gray-400">Money Mafia is a decenterlised organisation that <span class="text-white bg-gray-400">develops</span>, <span class="text-white bg-gray-400">manages</span> & <span class="text-white bg-gray-400">funds</span> blockchain startups.</p>
+		<div class="container mx-auto max-w-7xl px-5 py-20">
+			<div class="flex md:flex-row flex-col items-center">
+				<div class="md:w-1/2 p-5">
+					<p class="text-2xl font-bold uppercase text-gray-400">Money Mafia is a decenterlised organisation that <span class="text-white bg-gray-400">develops</span>, <span class="text-white bg-gray-400">manages</span> & <span class="text-white bg-gray-400">funds</span> blockchain startups.</p>
+					<links />
+				</div>
 
-						<links />
-					</div>
-
-					<div class="md:w-1/2 p-5">
-						<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/main.json" background="transparent"></lottie-player>
-					</div>
+				<div class="md:w-1/2 p-5">
+					<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/main.json" background="transparent"></lottie-player>
 				</div>
 			</div>
 		</div>
 
 		<medium />
 
-		<contact />
-		
 	</div>
 </template>
 
 <script>
 	import links from '@/components/links.vue';
 	import medium from '@/components/medium.vue';
-	import contact from '@/components/contact.vue';
 
 	export default {
 		components: {
 			links,
 			medium,
-			contact,
 		},
 	};
 </script>

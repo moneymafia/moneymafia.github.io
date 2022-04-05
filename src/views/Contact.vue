@@ -1,5 +1,5 @@
 <template>
-	<div class="px-5 py-10 container mx-auto max-w-7xl">
+	<div class="px-5 py-20 container mx-auto max-w-7xl">
 		<div class="flex md:flex-row flex-col items-center" @click="ofs" @mouseenter="ofs">
 			<div class="md:w-1/2 p-5">
 				<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/mail.json" background="transparent"></lottie-player>

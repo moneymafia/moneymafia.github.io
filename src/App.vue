@@ -3,7 +3,7 @@
 		<div class="container mx-auto flex flex-col flex-wrap items-center justify-between py-10 md:flex-row uppercase">
 			<div class="relative flex flex-col md:flex-row">
 				<router-link to="/" class="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
-					<span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">MONEY MAFIA</span>
+					<span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">MONEYMAFIA.ETH</span>
 				</router-link>
 			</div>
 
@@ -13,6 +13,7 @@
 					<router-link to="/service" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">SERVICE</router-link>
 					<router-link to="/team" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">TEAM</router-link>
 					<router-link to="/faq" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">FAQ</router-link>
+					<router-link to="/contact" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">CONTACT</router-link>
 				</nav>
 			</div>
 		</div>
