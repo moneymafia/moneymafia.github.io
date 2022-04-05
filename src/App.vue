@@ -1,8 +1,8 @@
 <template>
 	<div id="app">
 		<div class="container mx-auto max-w-7xl flex flex-col flex-wrap items-center justify-between py-10 md:flex-row uppercase text-2xl font-bold text-gray-500">
-			<div class="relative flex flex-col md:flex-row">
-				<router-link to="/" class="flex items-center lg:w-auto lg:items-center lg:justify-center"> MONEYMAFIA.ETH </router-link>
+			<div class="relative flex flex-col md:flex-row mb-2">
+				<router-link to="/"> MONEYMAFIA.ETH </router-link>
 			</div>
 
 			<div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
