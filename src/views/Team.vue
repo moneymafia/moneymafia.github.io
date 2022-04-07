@@ -7,7 +7,7 @@
 				</div>
 
 				<div class="md:w-1/2 p-5">
-					<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/team.json" background="transparent"></lottie-player>
+					<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/step.json" background="transparent"></lottie-player>
 				</div>
 			</div>
 		</div>

@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="py-10 container mx-auto px-5">
-			<section class="grid lg:grid-cols-2 2xl:grid-cols-4 grid-cols-1 gap-10 antialiased">
+			<section class="grid lg:grid-cols-3 grid-cols-1 gap-5 antialiased">
 				<article class="flex flex-col shadow-xl mx-auto max-w-sm bg-red-100 py-20 px-12 transform duration-500 hover:-translate-y-2 cursor-pointer max-h-190 rounded-md">
 					<h1 class="font-extrabold text-6xl mt-28 mb-10 text-gray-800">01.</h1>
 					<h2 class="font-bold mb-5 text-gray-800 text-2xl">DAPP Development</h2>
@@ -34,7 +34,7 @@
 				<article class="flex flex-col shadow-xl mx-auto max-w-sm bg-purple-100 py-20 px-12 transform duration-500 hover:-translate-y-2 cursor-pointer mt-0 md:mt-20 max-h-190 rounded-md">
 					<h1 class="font-extrabold text-6xl mt-28 mb-10 text-gray-800">04.</h1>
 					<h2 class="font-bold mb-5 text-gray-800 text-2xl">Project Audit</h2>
-					<p class="leading-relaxed text-gray-700">A Project Audit is a formal review of a project, which is intended to assess the extent up to which project management standards are being upheld. </p>
+					<p class="leading-relaxed text-gray-700">A Project Audit is a formal review of a project, which is intended to assess the extent up to which project management standards are being upheld.</p>
 				</article>
 
 				<article class="flex flex-col shadow-xl mx-auto max-w-sm bg-yellow-100 py-20 px-12 transform duration-500 hover:-translate-y-2 cursor-pointer mt-0 md:mt-20 max-h-190 rounded-md">
