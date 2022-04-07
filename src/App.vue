@@ -1,6 +1,5 @@
 <template>
 	<div id="app">
-
 		<div class="container mx-auto flex flex-col flex-wrap items-center justify-between py-10 md:flex-row uppercase text-2xl">
 			<div class="relative flex flex-col md:flex-row mb-2">
 				<router-link to="/" class="font-bold"> MONEYMAFIA.ETH </router-link>
