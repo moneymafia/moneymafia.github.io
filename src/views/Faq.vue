@@ -1,25 +1,23 @@
 <template>
-	<div class="container mx-auto max-w-7xl  px-5">
-		<div class="py-10">
-			<div class="flex md:flex-row flex-col items-center">
-				<div class="md:w-1/2 p-5">
-					<p class="text-5xl font-bold uppercase text-gray-400">frequently asked <span class="text-white bg-gray-400">questions</span></p>
-				</div>
-
-				<div class="md:w-1/2 p-5">
-					<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/faq.json" background="transparent"></lottie-player>
-				</div>
-			</div>
+	<div class="container mx-auto max-w-7xl px-5">
+		<div class="py-40">
+			<p class="text-3xl font-mono uppercase">frequently asked <span class="text-white bg-red-300">questions</span></p>
 		</div>
+
 		<div class="py-10">
-			<div class="flex flex-col justify-center">
-				<div class="grid grid-cols-1 gap-0 md:grid-cols-3 md:gap-16">
-					<div v-for="(collapse, index) of collapses" :key="index">
-						<h5 class="mt-5 mb-3 font-bold text-gray-900">
-							{{ collapse.title }}
-						</h5>
-						<p>{{ collapse.text }}</p>
-					</div>
+			<div class="space-y-4">
+				<div v-for="(collapse, index) of collapses" :key="index">
+					<details class="group">
+						<summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50">
+							<h5 class="font-medium text-gray-900">{{ collapse.title }}</h5>
+
+							<svg class="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+							</svg>
+						</summary>
+
+						<p class="px-4 mt-4 leading-relaxed text-gray-700">{{ collapse.text }}</p>
+					</details>
 				</div>
 			</div>
 		</div>
