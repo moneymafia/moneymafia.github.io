@@ -60,14 +60,34 @@
 	export default {
 		data() {
 			return {
-				posts: [],
+				posts: [
+					{
+						title: 'loading...',
+						link: '',
+						thumbnail: 'https://ipfs.infura.io/ipfs/QmRF2awFZn8kLqyxT3zK9VzH1PFHQpLBcowREvX7Ph9PZe',
+					},
+					{
+						title: 'loading...',
+						link: '',
+						thumbnail: 'https://ipfs.infura.io/ipfs/QmRF2awFZn8kLqyxT3zK9VzH1PFHQpLBcowREvX7Ph9PZe',
+					},
+					{
+						title: 'loading...',
+						link: '',
+						thumbnail: 'https://ipfs.infura.io/ipfs/QmRF2awFZn8kLqyxT3zK9VzH1PFHQpLBcowREvX7Ph9PZe',
+					},
+				],
 			};
 		},
 		methods: {
 			async fetchdata() {
-				const response = await axios.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40moneymafia');
+				try {
+					const response = await axios.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40moneymafia');
 
-				this.posts = response.data.items;
+					this.posts = response.data.items;
+				} catch (error) {
+					console.log(error);
+				}
 			},
 		},
 		async mounted() {
