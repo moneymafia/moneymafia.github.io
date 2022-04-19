@@ -1,15 +1,8 @@
 <template>
-	<div class="px-5 py-20 container mx-auto max-w-7xl">
-		<div class="flex md:flex-row flex-col items-center" @click="ofs" @mouseenter="ofs">
-			<div class="md:w-1/2 p-5">
-				<lottie-player class="object-cover object-center" autoplay="" loop="" mode="normal" src="img/mail.json" background="transparent"></lottie-player>
-			</div>
-
-			<div class="md:w-1/2 p-5">
-				<p class="text-5xl font-bold uppercase text-gray-400 py-10"><span class="text-white bg-gray-400">Contact</span> US</p>
-
-				<p class="text-2xl font-bold uppercase text-gray-400">{{ mail }}</p>
-			</div>
+	<div>
+		<div class="px-5 py-20 container mx-auto max-w-7xl" @click="ofs" @mouseenter="ofs">
+			<p class="text-3xl font-mono uppercase py-5">EMAIL <span class="text-white bg-red-300">US</span></p>
+			<p class="text-2xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">{{ mail }}</p>
 		</div>
 	</div>
 </template>
