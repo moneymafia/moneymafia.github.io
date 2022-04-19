@@ -82,9 +82,10 @@
 		methods: {
 			async fetchdata() {
 				try {
-					const response = await axios.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40moneymafia');
+					const response = await axios.get('https://moneymafia.medium.com/feed');
 
-					this.posts = response.data.items;
+					console.log(response);
+					//	this.posts = response.data.items;
 				} catch (error) {
 					console.log(error);
 				}
