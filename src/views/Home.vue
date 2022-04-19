@@ -8,7 +8,7 @@
 
 					<a href="https://moneymafia.medium.com/" class="py-2 my-2 px-5 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"> MEDIUM </a>
 
-					<a href="https://t.me/moneymafiatg" class="py-2 my-2 px-5 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"> TELEGRAM </a>
+					<a href="https://t.me/+2wVpMgdCFethMjRl" class="py-2 my-2 px-5 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"> TELEGRAM </a>
 
 					<a href="https://snapshot.org/#/moneymafia.eth" class="py-2 my-2 px-5 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"> VOTE </a>
 				</div>
