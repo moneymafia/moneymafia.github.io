@@ -22,6 +22,11 @@ const routes = [
 		component: () => import('../views/Faq.vue'),
 	},
 	{
+		path: '/dao',
+		name: 'Dao',
+		component: () => import('../views/Dao.vue'),
+	},
+	{
 		path: '/service',
 		name: 'Service',
 		component: () => import('../views/Service.vue'),
