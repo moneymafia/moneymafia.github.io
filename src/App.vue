@@ -9,7 +9,6 @@
 				<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
                     <router-link to="/dao" class="mr-5">DAO</router-link>
 					<router-link to="/service" class="mr-5">SERVICE</router-link>
-					<router-link to="/team" class="mr-5">TEAM</router-link>
 					<router-link to="/faq" class="mr-5">FAQ</router-link>
 					<router-link to="/contact" class="mr-5">CONTACT</router-link>
 				</nav>
