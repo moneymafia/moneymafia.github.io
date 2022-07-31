@@ -8,6 +8,7 @@
 			<div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
 				<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
                     <router-link to="/dao" class="mr-5">DAO</router-link>
+                    <router-link to="/token" class="mr-5">TOKEN</router-link>
 					<router-link to="/service" class="mr-5">SERVICE</router-link>
 					<router-link to="/faq" class="mr-5">FAQ</router-link>
 					<router-link to="/contact" class="mr-5">CONTACT</router-link>

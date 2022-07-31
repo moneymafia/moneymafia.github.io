@@ -12,6 +12,11 @@ const routes = [
 		component: Home,
 	},
 	{
+		path: '/token',
+		name: 'Token',
+		component: () => import('../views/Token.vue'),
+	},
+	{
 		path: '/faq',
 		name: 'Faq',
 		component: () => import('../views/Faq.vue'),
