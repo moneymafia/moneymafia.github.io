@@ -8,22 +8,24 @@
 				Supply <span class="text-white bg-red-300">{{ getTokenSupply }}</span> MMETH
 			</p>
 
-			<a target="_blank" href="https://matcha.xyz/markets/137/0x0fc7fe06b0b0de5c920646b0f6422641a6f2be9f">
-				<button
-					type="button"
-					class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2"
-				>
-					TRADE
-				</button>
-			</a>
-			<a target="_blank" href="https://polygonscan.com/token/0x0fc7fe06b0b0de5c920646b0f6422641a6f2be9f">
-				<button
-					type="button"
-					class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2"
-				>
-					VIEW
-				</button>
-			</a>
+			<div class="py-10">
+				<a target="_blank" href="https://matcha.xyz/markets/137/0x0fc7fe06b0b0de5c920646b0f6422641a6f2be9f">
+					<button
+						type="button"
+						class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2"
+					>
+						TRADE
+					</button>
+				</a>
+				<a target="_blank" href="https://polygonscan.com/token/0x0fc7fe06b0b0de5c920646b0f6422641a6f2be9f">
+					<button
+						type="button"
+						class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2"
+					>
+						VIEW
+					</button>
+				</a>
+			</div>
 		</div>
 	</div>
 </template>
