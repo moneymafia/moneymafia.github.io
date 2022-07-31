@@ -11,7 +11,7 @@
 			<aside class="p-12 pt-48 sm:p-16 sm:pt-64 bg-gradient-to-r from-purple-600 to-blue-500">
 				<div class="sm:items-end sm:justify-between sm:flex">
 					<div class="max-w-xl">
-						<p class="text-2xl font-bold text-white sm:text-4xl">PARTICIPATE IN GOVERNANCE USING $MAFIA TOKEN</p>
+						<p class="text-2xl font-bold text-white sm:text-4xl">PARTICIPATE IN GOVERNANCE USING $MMETH TOKEN</p>
 					</div>
 
 					<a href="https://snapshot.org/#/moneymafia.eth" class="inline-block px-8 py-4 mt-4 text-blue-500 bg-white rounded-lg shadow-lg hover:opacity-75 sm:mt-0 sm:ml-8">
