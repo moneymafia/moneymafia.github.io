@@ -1,5 +1,5 @@
 <template>
-	<div >
+	<div>
 		<div class="py-40">
 			<p class="text-3xl font-mono uppercase">frequently asked <span class="text-white bg-red-300">questions</span></p>
 		</div>
@@ -34,12 +34,12 @@
 						text: 'Money Mafia is a decentralized DAO, which means its owned by the Money Mafia Token holders.',
 					},
 					{
-						title: 'Income Source (Services)',
-						text: 'Money Mafia generates money from various services like - project development, promotion, marketing, audits.',
+						title: 'What is security deposit ?',
+						text: 'The security deposit is a substantial amount that needs to be paid upfront; it is held throughout the tenure of your project.The amount is paid back once the project is online and working. Security deposit is charged to safeguard the our interest in case of failure or non-payment of amount decided.',
 					},
 					{
-						title: 'Income Source (Investment)',
-						text: 'Money Mafia generates money from various modes like seed investments, private investments, project development partnerships.',
+						title: 'Why we are .eth not .com?',
+						text: 'Decentralized apps, or Dapps. They perform similar tasks and are similar to regular apps, but the crucial. The main distinction between them is that they operate on a peer-to-peer network like a blockchain. Decentralization of dapps has spawned entirely new business models: the decentralized autonomous organization and our believability in creating decntralized workspaces which is much more secure and transparent than centralized websites',
 					},
 				],
 			};
